@@ -7,6 +7,7 @@
     "lint": "turbo lint",
     "lint-staged": "turbo lint-staged",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "release": "SKIP_PREPARE_COMMIT=true npx standard-version",
     "prepare": "husky"
   },
   "config": {
